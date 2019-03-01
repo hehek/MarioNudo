@@ -8,7 +8,7 @@ namespace MarioNudo
 {
     class BlackOlive: PizzaDecorator
     {
-        public BlackOlive(Pizza p, string name): base(p, name)
+        public BlackOlive(Pizza p): base(p, p.Name)
          { }
 
        

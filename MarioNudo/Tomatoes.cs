@@ -8,7 +8,7 @@ namespace MarioNudo
 {
     class Tomatoes : PizzaDecorator
     {
-        public Tomatoes(Pizza p, string name) : base(p, name)
+        public Tomatoes(Pizza p) : base(p, p.Name)
         { }
 
 

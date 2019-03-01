@@ -8,7 +8,7 @@ namespace MarioNudo
 {
     class HotPapper : PizzaDecorator
     {
-        public HotPapper(Pizza p, string name) : base(p, name)
+        public HotPapper(Pizza p) : base(p, p.Name)
         { }
 
 
