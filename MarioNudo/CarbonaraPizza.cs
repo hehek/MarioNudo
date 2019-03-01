@@ -14,7 +14,7 @@ namespace MarioNudo
         public override List<string> GetIngredients()
         {
             var ingredientsList = new List<string>() { "бекон", "сыр Моцарелла", "сыр Дор-блю", "сыр Пармезан", "сливки",
-                                                        " яйцо перепелиное", "перец чёрный молотый" };
+                                                        "яйцо перепелиное", "перец чёрный молотый" };
             return ingredientsList;
         }
 
