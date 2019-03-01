@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace MarioNudo
 {
-    class BlackOlive: PizzaDecorator
+    class HotPapper : PizzaDecorator
     {
-        public BlackOlive(Pizza p, string name): base(p, name)
-         { }
+        public HotPapper(Pizza p, string name) : base(p, name)
+        { }
 
-       
+
         public override List<string> GetIngredients()
         {
             var list = pizza.GetIngredients();
-            string add = "оливки";
+            string add = "острый перец";
             if (list.Contains(add))
             {
                 list.Remove(add);
-                list.Add("оливки x2");
+                list.Add("острый перец x2");
             }
             else
             {
@@ -30,7 +30,7 @@ namespace MarioNudo
 
         public override int GetPrice()
         {
-            return pizza.GetPrice() + 5;
+            return pizza.GetPrice() + 7;
         }
     }
 }

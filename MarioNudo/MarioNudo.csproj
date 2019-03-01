@@ -45,12 +45,14 @@
   <ItemGroup>
     <Compile Include="BlackOlive.cs" />
     <Compile Include="CarbonaraPizza.cs" />
+    <Compile Include="HotPapper.cs" />
     <Compile Include="MargaritaPizza.cs" />
     <Compile Include="PepperoniPizza.cs" />
     <Compile Include="Pizza.cs" />
     <Compile Include="PizzaDecorator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tomatoes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
